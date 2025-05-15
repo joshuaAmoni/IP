@@ -7,7 +7,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: #333;
-  background-color:antiquewhite;
+  background-color:aqua;
   padding: 0 1rem;
 }
 img {
@@ -110,14 +110,14 @@ form button {
   cursor: pointer;
 }
 form button:hover {
-  background-color: #218838;
+  background-color: #219938;
 }
 
 /* ===== Footer ===== */
 footer {
   text-align: center;
   padding: 1rem 0;
-  background-color: #222;
+  background-color: green;
   color: #fff;
   margin-top: 3rem;
 }
@@ -140,16 +140,16 @@ footer {
 
 /* ===== Dark Mode (Optional) ===== */
 body.dark-mode {
-  background-color: #121212;
+  background-color: light-blue;
   color: #e0e0e0;
 }
 body.dark-mode nav {
   background-color: #1e1e1e;
 }
 body.dark-mode header, body.dark-mode footer {
-  background-color: #111;
+  background-color:yellow;
 }
 body.dark-mode .cta-btn {
-  background-color: #90caf9;
+  background-color: light-green;
   color: #000;
 }
