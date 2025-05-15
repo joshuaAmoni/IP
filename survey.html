@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey</title>
+  <link rel="stylesheet" href="csss.css">
+  <script src="C:\Users\Joshua\Desktop\Joshua folder\js.js"></script>
+</head>
+<body onload="displayGreeting()">
+    <header>
+      <h1 id="greeting">Welcome!</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="portfolio.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="survey.html">Survey</a></li>
+      </ul>
+    </nav>
+    </header>
+  <h1>Survey</h1>
+  <form>
+    <fieldset>
+      <legend>Experience</legend>
+      <label><input type="radio" name="experience" required> Excellent</label>
+      <label><input type="radio" name="experience"> Good</label>
+      <label><input type="radio" name="experience"> Average</label>
+    </fieldset>
+    <fieldset>
+      <legend>Skills Interested In</legend>
+      <label><input type="checkbox" name="html"> HTML</label>
+      <label><input type="checkbox" name="css"> CSS</label>
+      <label><input type="checkbox" name="js"> JavaScript</label>
+    </fieldset>
+    <label for="comments">Comments:</label>
+    <textarea id="comment" name="comments" rows="4"></textarea>
+    <button type="submit" onclick="survey()">Submit</button>
+  </form>
+  <footer>&copy; 2025 Joshua Amoni</footer>
+</body>
+</html>

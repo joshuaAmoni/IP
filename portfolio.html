@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Projects - Joshua Amoni</title>
+  <link rel="stylesheet" href="csss.css">
+</head>
+<body onload="displayGreeting()">
+    <header>
+      <h1 id="greeting">Welcome!</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="portfolio.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="survey.html">Survey</a></li>
+      </ul>
+    </nav>
+</header>
+  <main class="three-column">
+    <article>
+      <img src="file:///C:/Users/Joshua/Desktop/images/20231124_184312.jpg" alt="Project 1" usemap="#projmap">
+      <map name="projmap">
+        <area shape="rect" coords="34,44,270,350" href="https://example.com" alt="View Project">
+      </map>
+      <h3>Portfolio Website</h3>
+      <p>This site itself! Built with semantic HTML, styled with CSS, and made interactive with JavaScript.</p>
+    </article>
+    <article>
+        <iframe width="300" height="200" src="index.html" title="Demo Video" allowfullscreen></iframe>
+    </article>
+    <article>
+      <h3>More Projects</h3>
+      <button onclick="toggleDetails(this)">Show Details</button>
+      <div class="hidden">Details about more projects go here!</div>
+    </article>
+  </main>
+  <footer>&copy; 2025 Joshua Amoni</footer>
+  <script src="js.js"></script>
+</body>
+</html>

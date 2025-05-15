@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Nasra Mumba</title>
+  <link rel="stylesheet" href="csss.css">
+</head>
+<body onload="displayGreeting()">
+    <header>
+      <h1 id="greeting">Welcome!</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="portfolio.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="survey.html">Survey</a></li>
+      </ul>
+    </nav>
+    </header>
+  <h1>Contact Me</h1>
+  <form onsubmit="return validateContactForm()">
+    <label for="name">Name:</label><input id="name" name="name" required>
+    <label for="email">Email:</label><input id="email" name="email" type="email" required>
+    <label for="phone">Phone:</label><input id="phone" name="phone" required>
+    <button type="submit">Send</button>
+  </form>
+  <footer>&copy; 2025 Nasra Mumba</footer>
+  <script src="js.js"></script>
+
+</body>
+</html>
