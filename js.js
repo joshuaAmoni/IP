@@ -48,7 +48,7 @@ function displayGreeting() {
     if (savedTheme === "dark") {
       document.body.classList.add("dark-mode");
     }
-  
+
     const toggleBtn = document.getElementById("theme-toggle");
     if (toggleBtn) {
       toggleBtn.addEventListener("click", toggleTheme);
